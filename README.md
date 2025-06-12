@@ -1,4 +1,4 @@
-# API REST de Películas 🎬
+# API RESTFULL de Películas 🎬
 
 ## Descripción
 API REST desarrollada con Spring Boot para la gestión de películas. Esta aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre un catálogo de películas, incluyendo información detallada como título, director, género, año de lanzamiento y calificación IMDB.
