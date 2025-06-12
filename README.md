@@ -6,6 +6,7 @@ API REST desarrollada con Spring Boot para la gestión de películas. Esta aplic
 ## Tecnologías Utilizadas
 - Java 21
 - Spring Boot 3.5.0
+- Spring web
 - Spring Data JPA
 - PostgreSQL
 - Lombok
