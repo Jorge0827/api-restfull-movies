@@ -1,0 +1,38 @@
+### Crear una nueva película
+Post http://localhost:8081/api/movies/create
+Content-Type: application/json
+
+{
+    "title": "El Paseo",
+    "director": "Dago García",
+    "genre": "Comedy",
+    "year_released": 2010,
+    "imdb_score": 7.2
+}
+
+### Obtener una película por su ID
+Get http://localhost:8081/api/movies/1
+
+### Obtener todas las películas
+Get http://localhost:8081/api/movies
+
+### Buscar películas por director
+Get http://localhost:8081/api/movies?director=james
+
+### Buscar películas por género
+Get http://localhost:8081/api/movies?genre=Action
+
+### Actualizar una película existente
+Put http://localhost:8081/api/movies/update/1
+Content-Type: application/json
+
+{
+    "title": "Aquaman",
+    "director": "James Wan",
+    "genre": "Action",
+    "year_released": 2018,
+    "imdb_score": 6.8
+}
+
+### Eliminar una película por su ID
+Delete http://localhost:8081/api/movies/delete/2
